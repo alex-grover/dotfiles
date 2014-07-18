@@ -1,0 +1,59 @@
+# install Homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+mkdir ~/Developer
+cd ~/Developer
+
+# get dotfiles repo
+git clone git://github.com/ajgrover/dotfiles.git
+cd dotfiles
+
+cd ..
+rm -rf dotfiles
+
+
+
+
+<<TODO
+install sublime
+install soda theme for sublime
+install xcode
+clone my oh-my-zsh
+symlink all dotfiles (.zshrc, sublime packages, )
+terminal.app theme
+inconsolata font to /Lib/Fonts
+vim, zsh, gitconfig customization https://github.com/holman/dotfiles/blob/master/git/gitconfig.symlink.example
+alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias subl
+export editor=vim
+https://github.com/holman/dotfiles/blob/master/osx/set-defaults.sh https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh https://github.com/skwp/dotfiles/blob/master/osx https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+install bartender
+install transmission
+install the unarchiver
+install cloudapp
+install caffeinate
+brew install node
+npm install coffee-script, bower
+symlink sublime
+install divvy w/prefs (look into switching what prefs do)
+install dropbox
+install flux
+install chrome
+install mint?, skype?, simpholders?, webstorm?, twitter?
+install vlc
+install alfred
+background photo
+
+
+
+
+
+LOOK INTO:
+
+xcode pods
+how to set up internet accts system prefs
+caffeinate
+make rm move to trash
+look into tmux
+https://github.com/holman/dotfiles/blob/master/bin/cloudapp
+TODO
