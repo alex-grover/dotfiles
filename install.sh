@@ -18,7 +18,7 @@ rm -rf dotfiles
 install sublime
 install soda theme for sublime
 install xcode
-clone my oh-my-zsh
+clone my oh-my-zsh https://github.com/ranman/oh-my-zsh/commit/e7ba2c853b1cb22d30c22cce3b9781a0e4fa748a
 symlink all dotfiles (.zshrc, sublime packages, )
 terminal.app theme
 inconsolata font to /Lib/Fonts
@@ -50,6 +50,7 @@ background photo
 
 LOOK INTO:
 
+https://powerline.readthedocs.org/en/latest/introduction.html https://gist.github.com/qrush/1595572 https://github.com/ranman/dotfiles/tree/master/.vim/bundle
 xcode pods
 how to set up internet accts system prefs
 caffeinate
