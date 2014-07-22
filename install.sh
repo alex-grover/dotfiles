@@ -28,3 +28,8 @@ mv ./sublime ~/Library/Application\ Support/Sublime\ Text\ 3/
 # oh-my-zsh
 echo "Installing oh-my-zsh..."
 curl -L https://raw.github.com/ajgrover/oh-my-zsh/master/tools/install.sh | sh
+
+# cloudapp command line tool
+echo "Please enter your cloudapp password in ~/.cloudapp"
+sudo gem install cloudapp_api
+mv .cloudapp ~
