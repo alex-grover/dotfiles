@@ -1,0 +1,21 @@
+[github]
+    user = ajgrover
+
+[user]
+	name = Alex Grover
+	email = ajgrover@stanford.edu
+
+[color]
+    ui = auto
+
+[credential]
+	helper = osxkeychain
+
+[push]
+	default = simple
+
+[alias]
+    ls = ls-files
+
+[help]
+    autocorrect = 1
