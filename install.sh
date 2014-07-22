@@ -2,6 +2,15 @@
 
 # developer dir
 mkdir ~/Developer
+cd Developer
+git clone git@github.com:ajgrover/dotfiles.git
+cd dotfiles
+
+# customize OS X prefs
+osx.sh
+
+# .gitconfig
+mv .gitconfig ~
 
 # install Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"

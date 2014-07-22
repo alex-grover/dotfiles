@@ -1,7 +1,7 @@
 <<TODO
 install xcode
 https://github.com/ranman/oh-my-zsh/commit/e7ba2c853b1cb22d30c22cce3b9781a0e4fa748a
-symlink all dotfiles (.zshrc, .vimrc, )
+dotfiles (.vimrc)
 terminal.app theme
 inconsolata font to /Lib/Fonts
 vim, zsh, gitconfig customization https://github.com/holman/dotfiles/blob/master/git/gitconfig.symlink.example
