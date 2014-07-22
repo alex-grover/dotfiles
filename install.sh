@@ -1,60 +1,21 @@
+#!/bin/bash
+
+# developer dir
+mkdir ~/Developer
+
 # install Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew update
 
-mkdir ~/Developer
-cd ~/Developer
-
-# get dotfiles repo
-git clone git://github.com/ajgrover/dotfiles.git
-cd dotfiles
-
-cd ..
-rm -rf dotfiles
-
-
-
-
-<<TODO
-install sublime
-install soda theme for sublime
-install xcode
-clone my oh-my-zsh https://github.com/ranman/oh-my-zsh/commit/e7ba2c853b1cb22d30c22cce3b9781a0e4fa748a
-symlink all dotfiles (.zshrc, sublime packages, )
-terminal.app theme
-inconsolata font to /Lib/Fonts
-vim, zsh, gitconfig customization https://github.com/holman/dotfiles/blob/master/git/gitconfig.symlink.example
-alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
-alias subl
-export editor=vim
-https://github.com/holman/dotfiles/blob/master/osx/set-defaults.sh https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh https://github.com/skwp/dotfiles/blob/master/osx https://github.com/mathiasbynens/dotfiles/blob/master/.osx
-install bartender
-install transmission
-install the unarchiver
-install cloudapp
-install caffeinate
+# install node and npm modules
 brew install node
-npm install coffee-script, bower
-symlink sublime
-install divvy w/prefs (look into switching what prefs do)
-install dropbox
-install flux
-install chrome
-install mint?, skype?, simpholders?, webstorm?, twitter?
-install vlc
-install alfred
-background photo
+npm install -g coffee-script bower
 
+# Sublime Text
+echo "Install Sublime Text: http://www.sublimetext.com"
+echo "Then run ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl"
+mv ./sublime ~/Library/Application\ Support/Sublime\ Text\ 3/
 
-
-
-
-LOOK INTO:
-
-https://powerline.readthedocs.org/en/latest/introduction.html https://gist.github.com/qrush/1595572 https://github.com/ranman/dotfiles/tree/master/.vim/bundle
-xcode pods
-how to set up internet accts system prefs
-caffeinate
-make rm move to trash
-look into tmux
-https://github.com/holman/dotfiles/blob/master/bin/cloudapp
-TODO
+# oh-my-zsh
+echo "Installing oh-my-zsh..."
+curl -L https://raw.github.com/ajgrover/oh-my-zsh/master/tools/install.sh | sh
