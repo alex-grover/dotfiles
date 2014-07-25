@@ -7,29 +7,29 @@ alias cloudapp=/usr/local/bin/cloudapp.rb
 # colored-man plugin
 man() {
       env \
-          LESS_TERMCAP_mb=$(printf '\e[1;31m') \
-      LESS_TERMCAP_md=$(printf '\e[1;31m') \
-      LESS_TERMCAP_me=$(printf '\e[0m') \
-      LESS_TERMCAP_se=$(printf '\e[0m') \
-      LESS_TERMCAP_so=$(printf '\e[1;44;33m') \
-      LESS_TERMCAP_ue=$(printf '\e[0m') \
-      LESS_TERMCAP_us=$(printf '\e[1;32m') \
-                   man '$@'
+          LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+      LESS_TERMCAP_md=$(printf "\e[1;31m") \
+      LESS_TERMCAP_me=$(printf "\e[0m") \
+      LESS_TERMCAP_se=$(printf "\e[0m") \
+      LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+      LESS_TERMCAP_ue=$(printf "\e[0m") \
+      LESS_TERMCAP_us=$(printf "\e[1;32m") \
+                   man "$@"
 }
 
 # copy plugin
 function copy {
-  [[ '$#' != 1 ]] && return 1
+  [[ "$#" != 1 ]] && return 1
   local file_to_copy=$1
   cat $file_to_copy | pbcopy
 }
 
 # sublime plugin
-alias subl='/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 
 
-ZSH='Developer/dotfiles'
+ZSH="$HOME/Developer/dotfiles"
 
 
 
@@ -62,13 +62,13 @@ for plugin ($plugins); do
 done
 
 # Save the location of the current completion dump file.
-if [ -z '$ZSH_COMPDUMP' ]; then
-  ZSH_COMPDUMP='~/.zcompdump'
+if [ -z "$ZSH_COMPDUMP" ]; then
+  ZSH_COMPDUMP="~/.zcompdump"
 fi
 
 # Load and run compinit
 autoload -U compinit
-compinit -i -d '${ZSH_COMPDUMP}'
+compinit -i -d "${ZSH_COMPDUMP}"
 
 # Load all of the plugins that were defined in ~/.zshrc
 for plugin ($plugins); do
@@ -90,13 +90,13 @@ done
 
 # Aliases
 alias sl=ls
-alias la='ls -a'
-alias ll='ls -alh'
-alias ios='open $(xcode-select -p)/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'
+alias la="ls -a"
+alias ll="ls -alh"
+alias ios="open $(xcode-select -p)/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
 # alias cd ... cd ../..?
 # alias grep to -rin?
 
-if [[ '$ENABLE_CORRECTION' == 'true' ]]; then
+if [[ "$ENABLE_CORRECTION" == "true" ]]; then
   alias man='nocorrect man'
   alias mkdir='nocorrect mkdir'
   alias mv='nocorrect mv'
@@ -128,13 +128,13 @@ export EDITOR='vim'
 
 
 # color name based on return value of last command
-local name_color='%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%}%s)'
+local name_color="%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%}%s)"
 
 # prompt
 PROMPT='${name_color}%B%n%b:%{$fg_bold[cyan]%}%c$(git_prompt_info) %{$reset_color%}'
 
 # git prompt
-ZSH_THEME_GIT_PROMPT_PREFIX=' %{$fg[blue]%}(%{$fg[red]%}'
-ZSH_THEME_GIT_PROMPT_SUFFIX='%{$reset_color%}'
-ZSH_THEME_GIT_PROMPT_DIRTY='%{$fg[blue]%}) %{$fg[yellow]%}✗%{$reset_color%}'
-ZSH_THEME_GIT_PROMPT_CLEAN='%{$fg[blue]%})'
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[blue]%}(%{$fg[red]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
