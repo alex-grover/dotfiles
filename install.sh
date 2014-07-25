@@ -29,9 +29,11 @@ mv ./sublime ~/Library/Application\ Support/Sublime\ Text\ 3/
 # curl -L https://raw.github.com/ajgrover/oh-my-zsh/master/tools/install.sh | sh
 
 # cloudapp command line tool
-echo "Please enter your cloudapp password in ~/.cloudapp"
+echo "Installing cloudapp gem."
 sudo gem install cloudapp_api
 mv .cloudapp ~
+mv cloudapp.rb /usr/local/bin/cloudapp
+echo "Please enter your cloudapp password in ~/.cloudapp"
 
 # remove repo
 cd ..

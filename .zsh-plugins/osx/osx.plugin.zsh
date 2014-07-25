@@ -42,93 +42,6 @@ EOF
   }
 }
 
-function vsplit_tab() {
-  local command="cd \\\"$PWD\\\""
-  (( $# > 0 )) && command="${command}; $*"
-
-  the_app=$(
-    osascript 2>/dev/null <<EOF
-      tell application "System Events"
-        name of first item of (every process whose frontmost is true)
-      end tell
-EOF
-  )
-
-  [[ "$the_app" == 'iTerm' ]] && {
-    osascript 2>/dev/null <<EOF
-      tell application "iTerm" to activate
-
-      tell application "System Events"
-        tell process "iTerm"
-          tell menu item "Split Vertically With Current Profile" of menu "Shell" of menu bar item "Shell" of menu bar 1
-            click
-          end tell
-        end tell
-        keystroke "${command}; clear;"
-        keystroke return
-      end tell
-EOF
-  }
-}
-
-function split_tab() {
-  local command="cd \\\"$PWD\\\""
-  (( $# > 0 )) && command="${command}; $*"
-
-  the_app=$(
-    osascript 2>/dev/null <<EOF
-      tell application "System Events"
-        name of first item of (every process whose frontmost is true)
-      end tell
-EOF
-  )
-
-  [[ "$the_app" == 'iTerm' ]] && {
-    osascript 2>/dev/null <<EOF
-      tell application "iTerm" to activate
-
-      tell application "System Events"
-        tell process "iTerm"
-          tell menu item "Split Horizontally With Current Profile" of menu "Shell" of menu bar item "Shell" of menu bar 1
-            click
-          end tell
-        end tell
-        keystroke "${command}; clear;"
-        keystroke return
-      end tell
-EOF
-  }
-}
-
-function pfd() {
-  osascript 2>/dev/null <<EOF
-    tell application "Finder"
-      return POSIX path of (target of window 1 as alias)
-    end tell
-EOF
-}
-
-function pfs() {
-  osascript 2>/dev/null <<EOF
-    set output to ""
-    tell application "Finder" to set the_selection to selection
-    set item_count to count the_selection
-    repeat with item_index from 1 to count the_selection
-      if item_index is less than item_count then set the_delimiter to "\n"
-      if item_index is item_count then set the_delimiter to ""
-      set output to output & ((item item_index of the_selection as alias)'s POSIX path) & the_delimiter
-    end repeat
-EOF
-}
-
-function cdf() {
-  cd "$(pfd)"
-}
-
-function pushdf() {
-  pushd "$(pfd)"
-}
-
 function quick-look() {
   (( $# > 0 )) && qlmanage -p $* &>/dev/null &
 }
@@ -152,10 +65,6 @@ function trash() {
     fi
   done
   IFS=$temp_ifs
-}
-
-function vncviewer() {
-  open vnc://$@
 }
 
 # iTunes control function
