@@ -1,5 +1,5 @@
 # load plugins (TODO: better docs here)
-plugins=(git terminalapp sublime)
+plugins=(git terminalapp)
 
 # cloudapp plugin
 alias cloudapp=/usr/local/bin/cloudapp.rb
