@@ -1,6 +1,6 @@
 install xcode
 https://github.com/ranman/oh-my-zsh/commit/e7ba2c853b1cb22d30c22cce3b9781a0e4fa748a
-dotfiles (.vimrc)
+dotfiles
 terminal.app theme
 inconsolata font to /Lib/Fonts
 vim, zsh, gitconfig customization https://github.com/holman/dotfiles/blob/master/git/gitconfig.symlink.example
@@ -20,6 +20,7 @@ install alfred
 background photo
 
 
+
 # install Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew update
@@ -35,7 +36,5 @@ LOOK INTO:
 https://powerline.readthedocs.org/en/latest/introduction.html https://gist.github.com/qrush/1595572 https://github.com/ranman/dotfiles/tree/master/.vim/bundle
 xcode pods
 how to set up internet accts system prefs
-make rm move to trash
 look into tmux
-https://github.com/holman/dotfiles/blob/master/bin/cloudapp
-zsh plugins
+https://github.com/paulmillr/dotfiles
