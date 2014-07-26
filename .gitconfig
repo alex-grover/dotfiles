@@ -14,8 +14,5 @@
 [push]
 	default = simple
 
-[alias]
-    ls = ls-files
-
 [help]
     autocorrect = 1

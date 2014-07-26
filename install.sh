@@ -2,11 +2,12 @@
 
 # developer dir
 mkdir ~/Developer
-cd Developer
+cd ~/Developer
 git clone git@github.com:ajgrover/dotfiles.git
 cd dotfiles
 
-# customize OS X prefs
+# customize OS X preferences
+echo "Customizing OS X preferences..."
 osx.sh
 
 # .gitconfig
@@ -24,17 +25,18 @@ npm install -g coffee-script bower
 echo "Install Sublime Text: http://www.sublimetext.com"
 mv ./sublime ~/Library/Application\ Support/Sublime\ Text\ 3/
 
-# # oh-my-zsh TODO: make this install zsh files
-# echo "Installing oh-my-zsh..."
-# curl -L https://raw.github.com/ajgrover/oh-my-zsh/master/tools/install.sh | sh
+# zsh config files
+mv zsh ~/.zsh
+mv .zshrc ~/.zshrc
 
 # cloudapp command line tool
 echo "Installing cloudapp gem."
 sudo gem install cloudapp_api
-mv .cloudapp ~
 mv cloudapp.rb /usr/local/bin/cloudapp
-echo "Please enter your cloudapp password in ~/.cloudapp"
+mv .cloudapp ~/.cloudapp
+vim ~/.cloudapp
 
 # remove repo
 cd ..
 rm -rf dotfiles
+cd

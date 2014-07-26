@@ -1,5 +1,5 @@
 # cloudapp plugin
-alias cloudapp=/usr/local/bin/cloudapp.rb
+alias cloudapp=/usr/local/bin/cloudapp
 
 # colored-man plugin
 man() {
@@ -192,6 +192,7 @@ alias man='nocorrect man'
 alias mkdir='nocorrect mkdir'
 alias mv='nocorrect mv'
 alias sudo='nocorrect sudo'
+alias cloudapp='nocorrect cloudapp'
 
 setopt correct_all
 
