@@ -11,11 +11,7 @@ fi
 # Load and run compinit
 autoload -U compinit
 compinit -i -d "${ZSH_COMPDUMP}"
-
-
-
-
-
+setopt correct_all
 
 alias man='nocorrect man'
 alias mkdir='nocorrect mkdir'
@@ -23,19 +19,10 @@ alias mv='nocorrect mv'
 alias sudo='nocorrect sudo'
 alias cloudapp='nocorrect cloudapp'
 
-setopt correct_all
-
-
-
-
-
-
 # Editor
 export EDITOR='vim'
 
-
 # Prompt
-
 # color name based on return value of last command
 local name_color="%(?:%{$fg[green]%}:%{$fg[red]%}%s)"
 
