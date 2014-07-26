@@ -2,7 +2,7 @@
 alias sl=ls
 alias la="ls -a"
 alias ll="ls -alh"
-# alias cd ... cd ../..?
+alias ...="cd ../.."
 # alias grep to -rin?
 
 # Git aliases

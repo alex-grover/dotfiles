@@ -1,67 +1,16 @@
-
-
-
-# Set Apple Terminal.app resume directory
-# based on this answer: http://superuser.com/a/315029
-
-# Tell the terminal about the working directory whenever it changes.
-if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]] && [[ -z "$INSIDE_EMACS" ]]; then
-  update_terminal_cwd() {
-        # Identify the directory using a "file:" scheme URL, including
-        # the host name to disambiguate local vs. remote paths.
-
-        # Percent-encode the pathname.
-        local URL_PATH=''
-        {
-            # Use LANG=C to process text byte-by-byte.
-            local i ch hexch LANG=C
-            for ((i = 1; i <= ${#PWD}; ++i)); do
-                ch="$PWD[i]"
-                if [[ "$ch" =~ [/._~A-Za-z0-9-] ]]; then
-                    URL_PATH+="$ch"
-                else
-                    hexch=$(printf "%02X" "'$ch")
-                    URL_PATH+="%$hexch"
-                fi
-            done
-        }
-
-        local PWD_URL="file://$HOST$URL_PATH"
-        #echo "$PWD_URL"        # testing
-        printf '\e]7;%s\a' "$PWD_URL"
-    }
-
-    # Register the function so it is called whenever the working
-    # directory changes.
-    autoload add-zsh-hook
-    add-zsh-hook precmd update_terminal_cwd
-
-    # Tell the terminal about the initial directory.
-    update_terminal_cwd
-fi
-
-
-
-
-
-
-
-
-
-# Load all of the config files in ~/oh-my-zsh that end in .zsh
+# Load all of the config files in ~/.zsh that end in .zsh
 for config_file ($HOME/.zsh/*.zsh); do
-  source $config_file
+    source $config_file
 done
 
 # Save the location of the current completion dump file.
 if [ -z "$ZSH_COMPDUMP" ]; then
-  ZSH_COMPDUMP="~/.zcompdump"
+    ZSH_COMPDUMP="~/.zcompdump"
 fi
 
 # Load and run compinit
 autoload -U compinit
 compinit -i -d "${ZSH_COMPDUMP}"
-
 
 
 
@@ -81,9 +30,7 @@ setopt correct_all
 
 
 
-
-
-# Preferred editor
+# Editor
 export EDITOR='vim'
 
 
