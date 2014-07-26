@@ -217,10 +217,10 @@ export EDITOR='vim'
 
 
 # color name based on return value of last command
-local name_color="%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%}%s)"
+local name_color="%(?:%{$fg[green]%}:%{$fg[red]%}%s)"
 
 # prompt
-PROMPT='${name_color}%B%n%b:%{$fg_bold[cyan]%}%c$(git_prompt_info) %{$reset_color%}'
+PROMPT='${name_color}%B%n%b:%{$fg[cyan]%}%c$(git_prompt_info) %{$reset_color%}'
 
 # git prompt
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[blue]%}(%{$fg[red]%}"
