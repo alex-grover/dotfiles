@@ -94,25 +94,8 @@ fi
 
 
 
-
-
-
-
-ZSH="$HOME/Developer/dotfiles"
-
-
-
-
-
-
-
-
-
-
-# Initializes Oh My Zsh
-
 # Load all of the config files in ~/oh-my-zsh that end in .zsh
-for config_file ($ZSH/zsh/*.zsh); do
+for config_file ($HOME/.zsh/*.zsh); do
   source $config_file
 done
 
@@ -129,49 +112,27 @@ compinit -i -d "${ZSH_COMPDUMP}"
 
 
 
-# GIT PLUGIN
-
-# Aliases
+# Git aliases
 alias gst='git status'
-compdef _git gst=git-status
 alias gd='git diff'
-compdef _git gd=git-diff
 alias gdc='git diff --cached'
-compdef _git gdc=git-diff
 alias gl='git pull'
-compdef _git gl=git-pull
 alias gup='git pull --rebase'
-compdef _git gup=git-fetch
 alias gp='git push'
-compdef _git gp=git-push
 alias gd='git diff'
 alias gc='git commit -v'
-compdef _git gc=git-commit
 alias gcm='git commit -m'
-compdef _git gcm=git-commit
 alias gcam='git commit -am'
-compdef _git gcam=git-commit
 alias grv='git remote -v'
-compdef _git grv=git-remote
 alias gb='git branch'
-compdef _git gb=git-branch
 alias glg='git log --stat --max-count=10'
-compdef _git glg=git-log
 alias glgg='git log --graph --max-count=10'
-compdef _git glgg=git-log
 alias glgga='git log --graph --decorate --all'
-compdef _git glgga=git-log
 alias glo='git log --oneline --decorate --color'
-compdef _git glo=git-log
 alias glog='git log --oneline --decorate --color --graph'
-compdef _git glog=git-log
 alias gss='git status -s'
-compdef _git gss=git-status
 alias ga='git add'
-compdef _git ga=git-add
-
 alias gls='git ls-files'
-
 alias gsts='git stash show --text'
 alias gsta='git stash'
 alias gstp='git stash pop'

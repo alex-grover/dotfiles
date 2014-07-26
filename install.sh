@@ -28,6 +28,8 @@ mv ./sublime ~/Library/Application\ Support/Sublime\ Text\ 3/
 # zsh config files
 mv zsh ~/.zsh
 mv .zshrc ~/.zshrc
+echo "Changing shell to zsh..."
+chsh -s /bin/zsh
 
 # cloudapp command line tool
 echo "Installing cloudapp gem."
