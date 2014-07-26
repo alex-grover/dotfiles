@@ -11,7 +11,11 @@ echo "Customizing OS X preferences..."
 osx.sh
 
 # .gitconfig
-mv .gitconfig ~
+mv .gitconfig ~/.gitconfig
+
+# vim
+mv .vimrc ~/.vimrc
+mkdir ~/.vim_tmp
 
 # install Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
