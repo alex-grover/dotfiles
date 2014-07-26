@@ -1,4 +1,3 @@
-<<TODO
 install xcode
 https://github.com/ranman/oh-my-zsh/commit/e7ba2c853b1cb22d30c22cce3b9781a0e4fa748a
 dotfiles (.vimrc)
@@ -21,6 +20,13 @@ install alfred
 background photo
 
 
+# install Homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew update
+
+# install node and npm modules
+brew install node
+npm install -g coffee-script bower
 
 
 
@@ -33,4 +39,3 @@ make rm move to trash
 look into tmux
 https://github.com/holman/dotfiles/blob/master/bin/cloudapp
 zsh plugins
-TODO
