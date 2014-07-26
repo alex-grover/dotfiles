@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "TODO: OS X preferences"
+echo "Customizing OS X preferences..."
+echo "TODO: finish this"
