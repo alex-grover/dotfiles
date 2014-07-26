@@ -1,5 +1,5 @@
 # load plugins (TODO: better docs here)
-plugins=(git osx terminalapp sublime)
+plugins=(git terminalapp sublime)
 
 # cloudapp plugin
 alias cloudapp=/usr/local/bin/cloudapp.rb
@@ -26,6 +26,35 @@ function copy {
 
 # sublime plugin
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# osx plugin
+function quick-look() {
+  (( $# > 0 )) && qlmanage -p $* &>/dev/null &
+}
+
+function trash() {
+  local trash_dir="${HOME}/.Trash"
+  local temp_ifs=$IFS
+  IFS=$'\n'
+  for item in "$@"; do
+    if [[ -e "$item" ]]; then
+      item_name="$(basename $item)"
+      if [[ -e "${trash_dir}/${item_name}" ]]; then
+        mv -f "$item" "${trash_dir}/${item_name} $(date "+%H-%M-%S")"
+      else
+        mv -f "$item" "${trash_dir}/"
+      fi
+    fi
+  done
+  IFS=$temp_ifs
+}
+
+
+
+
+
+
+
 
 
 
