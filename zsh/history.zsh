@@ -1,4 +1,4 @@
-## Command history configuration
+# Command history configuration
 if [ -z $HISTFILE ]; then
     HISTFILE=$HOME/.zsh_history
 fi
