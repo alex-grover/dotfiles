@@ -1,10 +1,10 @@
-# Aliases
+# aliases
 alias sl=ls
 alias la="ls -a"
 alias ll="ls -alh"
 alias ...="cd ../.."
 
-# Git aliases
+# git aliases
 alias gs='git status'
 alias gd='git diff'
 alias gl='git pull'
