@@ -2,17 +2,17 @@
     user = ajgrover
 
 [user]
-	name = Alex Grover
-	email = ajgrover@stanford.edu
+    name = Alex Grover
+    email = ajgrover@stanford.edu
 
 [color]
     ui = auto
 
 [credential]
-	helper = osxkeychain
+    helper = osxkeychain
 
 [push]
-	default = simple
+    default = simple
 
 [help]
     autocorrect = 1
