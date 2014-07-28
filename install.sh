@@ -40,3 +40,11 @@ fi
 ln -fs $dotfiles/cloudapp.rb /usr/local/bin/cloudapp
 cp .cloudapp ~/.cloudapp
 vim ~/.cloudapp
+
+# install Homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew update
+
+# install node and npm modules
+brew install node
+npm install -g coffee-script bower
