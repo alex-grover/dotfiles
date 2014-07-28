@@ -1,7 +1,6 @@
 install xcode
 terminal.app theme
 inconsolata font to /Lib/Fonts
-vim, zsh, gitconfig customization
 https://github.com/holman/dotfiles/blob/master/osx/set-defaults.sh https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh https://github.com/skwp/dotfiles/blob/master/osx https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 install bartender
 install transmission

@@ -21,15 +21,3 @@ alias cloudapp='nocorrect cloudapp'
 
 # Editor
 export EDITOR='vim'
-
-# Prompt
-# color name based on return value of last command
-local name_color="%(?:%{$fg[green]%}:%{$fg[red]%}%s)"
-
-# prompt
-PROMPT='${name_color}%B%n%b:%{$fg[cyan]%}%c$(git_prompt_info) %{$reset_color%}'
-
-# git prompt
-ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[blue]%}(%{$fg[red]%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
