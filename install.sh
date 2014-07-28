@@ -10,7 +10,7 @@ ln -fs $dotfiles/.gitconfig ~/.gitconfig
 
 # vim
 ln -fs $dotfiles/.vimrc ~/.vimrc
-if [ ! -d ~/.vim_tmp ]; then
+if [[ ! -d ~/.vim_tmp ]]; then
     mkdir ~/.vim_tmp
 fi
 
@@ -22,13 +22,14 @@ ln -fs $dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ 
 ln -fs $dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 # zsh config files
-ln -fFs $dotfiles/zsh ~/.zsh
+if [[ -d ~/.zsh ]]; then
+    rm -rf ~/.zsh
+elif [[ -L ~/.zsh ]]; then
+    unlink ~/.zsh
+fi
+ln -Fs $dotfiles/zsh/ ~/.zsh
 ln -fs $dotfiles/.zshrc ~/.zshrc
-
-# TODO: make this work
-# if [ -z "$ZSH_VERSION" ]; then
-    chsh -s /bin/zsh
-# fi
+chsh -s /bin/zsh
 
 # cloudapp command line tool
 if ! gem list cloudapp_api -i > /dev/null 2>&1; then
