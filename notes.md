@@ -24,4 +24,3 @@ LOOK INTO:
 xcode pods
 how to set up internet accts system prefs
 look into tmux
-https://github.com/paulmillr/dotfiles
