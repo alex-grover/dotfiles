@@ -10,9 +10,6 @@ ln -fs $dotfiles/.gitconfig ~/.gitconfig
 
 # vim
 ln -fs $dotfiles/.vimrc ~/.vimrc
-if [[ ! -d ~/.vim_tmp ]]; then
-    mkdir ~/.vim_tmp
-fi
 
 # sublime text
 echo "Install Sublime Text: http://www.sublimetext.com"
