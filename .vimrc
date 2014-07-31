@@ -24,7 +24,6 @@ set wildmode=list:longest
 filetype plugin indent on
 
 set nobackup
-set directory=~/.vim_tmp
 
 set history=1000
 set viminfo+=n~/.vim_history
