@@ -13,6 +13,7 @@ autoload -U compinit
 compinit -i -d "${ZSH_COMPDUMP}"
 setopt correct_all
 
+alias cat='pygmentize -g'
 alias man='nocorrect man'
 alias mkdir='nocorrect mkdir'
 alias mv='nocorrect mv'
