@@ -1,14 +1,14 @@
 {
-    "theme": "Soda Dark.sublime-theme",
-    "soda_classic_tabs": true,
-    "soda_folder_icons": true,
-    "font_face": "Inconsolata-dz",
-    "font_size": 13,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true,
-    "ensure_newline_at_eof_on_save": true,
-    "rulers": [
-        100
-    ]
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Inconsolata-dz",
+	"font_size": 12,
+	"rulers":
+	[
+		100
+	],
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
