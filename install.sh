@@ -1,5 +1,3 @@
-#!/bin/bash
-
 dotfiles=$HOME/Developer/dotfiles
 
 # customize OS X preferences
@@ -28,15 +26,8 @@ ln -Fs $dotfiles/zsh/ ~/.zsh
 ln -fs $dotfiles/.zshrc ~/.zshrc
 chsh -s /bin/zsh
 
-# cloudapp command line tool
-if ! gem list cloudapp_api -i > /dev/null 2>&1; then
-    echo "Installing cloudapp gem."
-    sudo gem install cloudapp_api
-fi
-
-ln -fs $dotfiles/cloudapp.rb /usr/local/bin/cloudapp
-cp .cloudapp ~/.cloudapp
-vim ~/.cloudapp
+# install cloudapp cli tool
+sudo gem install cloudapp
 
 # install Pygments
 echo "Installing Pygments for `cat` syntax highlighting"
