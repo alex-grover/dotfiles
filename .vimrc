@@ -1,4 +1,5 @@
 syntax on
+filetype plugin indent on
 
 set smartindent
 set tabstop=4
@@ -20,8 +21,6 @@ set background=dark
 
 set wildmenu
 set wildmode=list:longest
-
-filetype plugin indent on
 
 set nobackup
 

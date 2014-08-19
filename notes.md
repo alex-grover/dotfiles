@@ -14,6 +14,9 @@ install mint?, skype?, simpholders?, webstorm?, twitter?
 install vlc
 install alfred
 background photo
+brew install vim
+cloudapp screenshots -> trash script
+vim plugins - nerdtree
 
 
 
