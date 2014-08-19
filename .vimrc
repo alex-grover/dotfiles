@@ -26,3 +26,5 @@ set nobackup
 
 set history=1000
 set viminfo+=n~/.vim_history
+
+set nocompatible
