@@ -17,5 +17,7 @@ alias glg='git log --stat --graph --decorate --all'
 alias ga='git add'
 alias gls='git ls-files'
 
+alias cat='pygmentize -g'
+
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias ios="open $(xcode-select -p)/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"

@@ -13,7 +13,7 @@ autoload -U compinit
 compinit -i -d "${ZSH_COMPDUMP}"
 setopt correct_all
 
-alias cat='pygmentize'
+# Nocorrect aliases
 alias man='nocorrect man'
 alias mkdir='nocorrect mkdir'
 alias mv='nocorrect mv'
@@ -22,3 +22,6 @@ alias cloudapp='nocorrect cloudapp'
 
 # Editor
 export EDITOR='vim'
+
+# Path for Homebrew
+export PATH=/usr/local/bin:$PATH

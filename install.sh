@@ -26,6 +26,9 @@ ln -Fs $dotfiles/zsh/ ~/.zsh
 ln -fs $dotfiles/.zshrc ~/.zshrc
 chsh -s /bin/zsh
 
+# install xcode command line tools
+xcode-select --install
+
 # install cloudapp cli tool
 sudo gem install cloudapp
 
@@ -40,3 +43,6 @@ brew update
 # install node and npm modules
 brew install node
 npm install -g coffee-script bower
+
+# update vim
+brew install vim
