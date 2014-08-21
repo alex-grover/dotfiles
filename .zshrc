@@ -3,12 +3,8 @@ for config_file ($HOME/.zsh/*.zsh); do
     source $config_file
 done
 
-# save the location of the current completion dump file.
-if [ -z "$ZSH_COMPDUMP" ]; then
-    ZSH_COMPDUMP="~/.zcompdump"
-fi
-
-# load and run compinit
+# initialize completion
+ZSH_COMPDUMP="~/.zcompdump"
 autoload -U compinit
 compinit -i -d "${ZSH_COMPDUMP}"
 setopt correct_all

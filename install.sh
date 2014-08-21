@@ -25,6 +25,7 @@ fi
 ln -Fs $dotfiles/zsh/ ~/.zsh
 ln -fs $dotfiles/.zshrc ~/.zshrc
 chsh -s /bin/zsh
+compinit
 
 # install xcode command line tools
 xcode-select --install
