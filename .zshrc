@@ -25,3 +25,8 @@ export EDITOR='vim'
 
 # Path for Homebrew
 export PATH=/usr/local/bin:$PATH
+
+# Go env variables
+export PKG_CONFIG_PATH=$(brew --prefix python3)/Frameworks/Python.framework/Versions/3.4/lib/pkgconfig
+export GOPATH=$HOME/Developer/go
+export GOROOT=/usr/local/Cellar/go/1.3.1/libexec
