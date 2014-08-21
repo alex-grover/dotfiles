@@ -17,13 +17,6 @@ alias glg='git log --stat --graph --decorate --all'
 alias ga='git add'
 alias gls='git ls-files'
 
-# nocorrect aliases
-alias man='nocorrect man'
-alias mkdir='nocorrect mkdir'
-alias mv='nocorrect mv'
-alias sudo='nocorrect sudo'
-alias cloudapp='nocorrect cloudapp'
-
 alias cat='pygmentize -g'
 
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
