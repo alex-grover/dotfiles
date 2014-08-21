@@ -1,4 +1,4 @@
-dotfiles=$HOME/Developer/dotfiles
+eotfiles=$HOME/Developer/dotfiles
 
 # customize OS X preferences
 ./osx.sh
@@ -40,6 +40,9 @@ sudo easy_install Pygments
 # install Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew update
+
+# install updated Git
+brew install git
 
 # install node and npm modules
 brew install node
