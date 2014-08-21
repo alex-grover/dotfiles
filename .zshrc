@@ -13,13 +13,6 @@ autoload -U compinit
 compinit -i -d "${ZSH_COMPDUMP}"
 setopt correct_all
 
-# nocorrect aliases
-alias man='nocorrect man'
-alias mkdir='nocorrect mkdir'
-alias mv='nocorrect mv'
-alias sudo='nocorrect sudo'
-alias cloudapp='nocorrect cloudapp'
-
 # editor
 export EDITOR='vim'
 
