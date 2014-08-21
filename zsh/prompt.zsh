@@ -5,7 +5,7 @@ function git_prompt_info() {
     echo "${ref#refs/heads/} $(parse_git_dirty)"
 }
 
-# Checks if working tree is dirty
+# checks if working tree is dirty
 parse_git_dirty() {
     GIT_STATUS=$(command git status -s 2> /dev/null | tail -n1)
     if [[ -n $GIT_STATUS ]]; then
