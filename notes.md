@@ -14,7 +14,7 @@ install vlc
 install alfred
 background photo
 cloudapp screenshots -> trash script
-vim plugins - nerdtree?
+vim plugins
 
 
 
@@ -24,4 +24,4 @@ LOOK INTO:
 
 xcode pods
 how to set up internet accts system prefs
-look into tmux
+tmux
