@@ -16,3 +16,6 @@ parse_git_dirty() {
 # prompt
 PROMPT='%(?:%F{green}:%F{red})%n%f %F{cyan}%c%f %F{magenta}$(git_prompt_info)%f'
 SPROMPT='zsh: correct %F{red}%R%f to %F{green}%r%f [nyae]? '
+
+# set up the prompt with pretty colors
+setopt prompt_subst
