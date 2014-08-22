@@ -28,3 +28,5 @@ set history=1000
 set viminfo+=n~/.vim_history
 
 set nocompatible
+
+execute pathogen#infect()
