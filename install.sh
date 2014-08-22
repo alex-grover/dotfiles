@@ -6,9 +6,6 @@ eotfiles=$HOME/Developer/dotfiles
 # .gitconfig
 ln -fs $dotfiles/.gitconfig ~/.gitconfig
 
-# vim
-ln -fs $dotfiles/.vimrc ~/.vimrc
-
 # sublime text
 echo "Install Sublime Text: http://www.sublimetext.com"
 ln -fs $dotfiles/sublime/CoffeeScript.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/CoffeeScript.sublime-package
@@ -50,3 +47,5 @@ npm install -g coffee-script bower
 
 # update vim
 brew install vim
+ln -fs $dotfiles/.vimrc ~/.vimrc
+mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
