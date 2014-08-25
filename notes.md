@@ -15,6 +15,7 @@ install alfred
 background photo
 cloudapp screenshots -> trash script
 vim plugins - vim-go
+.screenrc
 
 
 
@@ -23,4 +24,3 @@ LOOK INTO:
 xcode pods
 how to set up internet accts system prefs
 cli torrent client
-split terminal window vertically
