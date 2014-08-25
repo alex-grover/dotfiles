@@ -27,6 +27,8 @@ set nobackup
 set history=1000
 set viminfo+=n~/.vim_history
 
+set directory=$HOME/.vim/.swp//
+
 set nocompatible
 
 execute pathogen#infect()
