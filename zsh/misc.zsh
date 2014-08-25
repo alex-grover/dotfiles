@@ -16,4 +16,4 @@ export GREP_COLOR='1;32'
 
 ## pager
 export PAGER="less"
-export LESS="-R"
+export LESS="-FRX"
