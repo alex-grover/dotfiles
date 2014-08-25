@@ -15,7 +15,6 @@ install alfred
 background photo
 cloudapp screenshots -> trash script
 vim plugins - vim-go
-.screenrc
 
 
 
