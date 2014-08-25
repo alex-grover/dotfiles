@@ -20,4 +20,4 @@ export GOPATH=$HOME/Developer/go
 export GOROOT=/usr/local/Cellar/go/1.3.1/libexec
 
 # for limetext/lime
-export PKG_CONFIG_PATH=$(brew --prefix python3)/Frameworks/Python.framework/Versions/3.4/lib/pkgconfig
+export PKG_CONFIG_PATH=/usr/local/opt/python3/Frameworks/Python.framework/Versions/3.4/lib/pkgconfig
