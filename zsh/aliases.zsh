@@ -1,7 +1,4 @@
 # aliases
-alias la="ls -a"
-alias ll="ls -alh"
-alias ...="cd ../.."
 
 # git aliases
 alias gs='git status'
@@ -17,7 +14,19 @@ alias glg='git log --stat --graph --decorate --all'
 alias ga='git add'
 alias gls='git ls-files'
 
+# ls aliases
+alias la='ls -a'
+alias ll='ls -alh'
+
+# directory aliases
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# cat syntax highlighting
 alias cat='pygmentize -g'
 
+# sublime text shortcut
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# iOS Simulator shortcut
 alias ios="open $(xcode-select -p)/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
