@@ -16,6 +16,6 @@ alias ls='ls -G'
 export GREP_OPTIONS="--color=auto --exclude-dir=.git"
 export GREP_COLOR='1;32'
 
-## pager
+# less options
 export PAGER="less"
 export LESS="-FRX"
