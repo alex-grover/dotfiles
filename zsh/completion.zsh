@@ -1,3 +1,5 @@
+# completion
+
 setopt auto_menu
 setopt always_to_end
 

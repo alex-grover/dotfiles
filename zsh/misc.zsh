@@ -1,3 +1,5 @@
+# miscellaneous settings
+
 # autoescapes characters when typing URLs
 autoload -U url-quote-magic
 zle -N self-insert url-quote-magic

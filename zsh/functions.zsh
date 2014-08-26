@@ -1,3 +1,5 @@
+# functions
+
 # colored man pages
 man() {
     env \
