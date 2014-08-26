@@ -1,4 +1,4 @@
-# aliases
+# alias configuration
 
 # git aliases
 alias gs='git status'
