@@ -12,7 +12,6 @@ install chrome
 install mint?, skype?, simpholders?, webstorm?, twitter?
 install vlc
 install alfred
-background photo
 cloudapp screenshots -> trash script
 vim plugins - vim-go
 
