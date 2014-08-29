@@ -18,4 +18,4 @@ export GREP_COLOR='1;32'
 
 # less options
 export PAGER="less"
-export LESS="-FR"
+export LESS="-R"

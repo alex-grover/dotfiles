@@ -1,14 +1,9 @@
 {
-	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Inconsolata-dz",
-	"font_size": 12,
-	"rulers":
-	[
-		100
-	],
-	"soda_classic_tabs": true,
-	"soda_folder_icons": true,
-	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+    "font_face": "Inconsolata-dz",
+    "font_size": 12,
+    "remember_full_screen": true,
+    "soda_classic_tabs": true,
+    "tab_size": 4,
+    "theme": "Soda Dark 3.sublime-theme",
+    "translate_tabs_to_spaces": true
 }
