@@ -8,6 +8,7 @@ ln -fs $dotfiles/.gitconfig ~/.gitconfig
 
 # sublime text
 echo "Install Sublime Text: http://www.sublimetext.com"
+ln -fs $dotfiles/sublime/Package\ Control.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 ln -fs $dotfiles/sublime/CoffeeScript.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/CoffeeScript.sublime-package
 ln -fs $dotfiles/sublime/Theme\ -\ Soda.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Theme\ -\ Soda.sublime-package
 ln -fs $dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
