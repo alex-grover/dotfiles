@@ -49,5 +49,5 @@ npm install -g coffee-script bower
 # update vim
 brew install vim
 ln -fs $dotfiles/.vimrc ~/.vimrc
-mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+mkdir -p ~/.vim/
 
