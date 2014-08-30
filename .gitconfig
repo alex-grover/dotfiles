@@ -16,3 +16,6 @@
 
 [help]
     autocorrect = 1
+
+[fetch]
+    prune = true
