@@ -41,6 +41,7 @@ brew update
 
 # install updated Git
 brew install git
+sudo gem install git-browse-remote
 
 # install node and npm modules
 brew install node
