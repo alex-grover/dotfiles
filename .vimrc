@@ -30,5 +30,3 @@ set viminfo+=n~/.vim_history
 set directory=$HOME/.vim/.swp//
 
 set nocompatible
-
-execute pathogen#infect()
