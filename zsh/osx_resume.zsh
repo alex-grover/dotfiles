@@ -1,7 +1,7 @@
 # set Apple Terminal.app resume directory for new tabs
 
 # tell the terminal about the working directory whenever it changes
-update_terminal_cwd() {
+function update_terminal_cwd() {
     # identify the directory using a "file:" scheme URL, including
     # the host name to disambiguate local vs. remote paths
 
