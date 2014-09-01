@@ -1,20 +1,8 @@
-install xcode
 inconsolata font to /Lib/Fonts
 https://github.com/holman/dotfiles/blob/master/osx/set-defaults.sh https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh https://github.com/skwp/dotfiles/blob/master/osx https://github.com/mathiasbynens/dotfiles/blob/master/.osx
-install bartender
-install transmission
-install the unarchiver
-install cloudapp
-install divvy w/prefs (look into switching what prefs do)
-install dropbox
-install flux
-install chrome
-install mint?, skype?, simpholders?, webstorm?, twitter?
-install vlc
-install alfred
 cloudapp screenshots -> trash script
-vim plugins - vim-go
-
+adobe (illustrator, photoshop, premiere, lightroom), alfred, appcleaner, bartender, cloudapp, divvy, dropbox, firefox, flux, google chrome, keynote, mailbox, mit quickview, numbers, pages, simpholders, sublime text, the unarchiver, transmission, twitter, vlc, xcode
+openemu, traktor, codekit, bodega 
 
 
 LOOK INTO:
