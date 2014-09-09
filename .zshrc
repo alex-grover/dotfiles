@@ -11,6 +11,3 @@ setopt correct_all
 
 # editor
 export EDITOR='vim'
-
-# path for Homebrew
-export PATH=/usr/local/bin:$PATH
