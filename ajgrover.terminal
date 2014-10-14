@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>BackgroundBlur</key>
-	<real>0.25350674715909088</real>
+	<real>0.0</real>
 	<key>BackgroundColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA9VJG51bGzTCQoLDA0OVU5TUkdCXE5TQ29sb3JTcGFjZVYkY2xhc3NPEC8w
-	LjA3ODYzNDUxMDg3IDAuMDc4NjM0NTEwODcgMC4wNzg2MzQ1MTA4NyAwLjY2ABABgALS
-	EBESE1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiEhRYTlNPYmplY3RfEA9OU0tl
-	eWVkQXJjaGl2ZXLRFxhUcm9vdIABCBEaIy0yNztBSE5bYpSWmJ2osbm8xdfa3wAAAAAA
-	AAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADh
+	AAGGoKMHCA9VJG51bGzTCQoLDA0OVU5TUkdCXE5TQ29sb3JTcGFjZVYkY2xhc3NPECcw
+	LjEwMTk2MDc4NDMgMC4xMDE5NjA3ODQzIDAuMTAxOTYwNzg0MwAQAYAC0hAREhNaJGNs
+	YXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9yohIUWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hp
+	dmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhOW2KMjpCVoKmxtL3P0tcAAAAAAAABAQAAAAAA
+	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>BlinkText</key>
+	<true/>
 	<key>CursorBlink</key>
 	<true/>
 	<key>CursorColor</key>
@@ -25,6 +27,8 @@
 	</data>
 	<key>CursorType</key>
 	<integer>0</integer>
+	<key>DisableANSIColor</key>
+	<false/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -39,7 +43,7 @@
 	<key>Linewrap</key>
 	<true/>
 	<key>ProfileCurrentVersion</key>
-	<real>2.02</real>
+	<real>2.04</real>
 	<key>SelectionColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -81,10 +85,14 @@
 	</data>
 	<key>UseBoldFonts</key>
 	<true/>
+	<key>UseBrightBold</key>
+	<false/>
+	<key>VisualBell</key>
+	<false/>
 	<key>columnCount</key>
 	<integer>1000</integer>
 	<key>name</key>
-	<string>Homebrew</string>
+	<string>ajgrover</string>
 	<key>rowCount</key>
 	<integer>1000</integer>
 	<key>type</key>
