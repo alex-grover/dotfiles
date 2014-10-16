@@ -47,8 +47,6 @@ sudo gem install git-browse-remote
 brew install node
 npm install -g coffee-script bower
 
-# update vim
-brew install vim
 ln -fs $dotfiles/.vimrc ~/.vimrc
 mkdir -p ~/.vim/
 
