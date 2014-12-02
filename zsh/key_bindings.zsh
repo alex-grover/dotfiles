@@ -13,9 +13,6 @@ if (( ${+terminfo[smkx]} )) && (( ${+terminfo[rmkx]} )); then
   zle -N zle-line-finish
 fi
 
-# use vim key bindings
-bindkey -v
-
 # [Ctrl-r] - search backward incrementally for a specified string.
 # the string may begin with ^ to anchor the search to the beginning of the line.
 bindkey '^r' history-incremental-search-backward
