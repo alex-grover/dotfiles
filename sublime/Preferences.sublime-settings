@@ -1,10 +1,15 @@
 {
 	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
 	"font_face": "Inconsolata-dz",
-	"font_size": 12,
+	"font_size": 13,
 	"remember_full_screen": true,
+	"rulers":
+	[
+		80
+	],
 	"soda_classic_tabs": true,
 	"tab_size": 4,
 	"theme": "Soda Dark 3.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
