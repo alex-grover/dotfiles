@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dotfiles=$HOME/Developer/dotfiles
 
 # customize OS X preferences
