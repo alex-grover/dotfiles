@@ -7,6 +7,7 @@ dotfiles=$HOME/Developer/dotfiles
 
 # .gitconfig
 ln -fs $dotfiles/.gitconfig ~/.gitconfig
+ln -fs $dotfiles/.gitignore ~/.gitignore
 
 # sublime text
 echo "Install Sublime Text: http://www.sublimetext.com"

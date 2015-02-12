@@ -22,3 +22,6 @@
 
 [branch]
 	autosetuprebase = always
+
+[core]
+	excludesfile = /Users/alexgrover/.gitignore
