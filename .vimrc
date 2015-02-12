@@ -21,6 +21,7 @@ set background=dark
 
 set wildmenu
 set wildmode=list:longest
+let g:netrw_list_hide= '.*\.d$,.*\.o$'
 
 set nobackup
 
