@@ -3,7 +3,7 @@
 # git aliases
 alias gs='git status'
 alias gd='git diff'
-alias gl='git pull'
+alias gl='git pull --rebase'
 alias gp='git push'
 alias gf='git fetch'
 alias gm='git merge'
