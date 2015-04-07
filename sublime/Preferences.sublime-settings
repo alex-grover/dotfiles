@@ -3,10 +3,6 @@
 	"font_face": "Inconsolata-dz",
 	"font_size": 13,
 	"remember_full_screen": true,
-	"rulers":
-	[
-		80
-	],
 	"soda_classic_tabs": true,
 	"tab_size": 4,
 	"theme": "Soda Dark 3.sublime-theme",
