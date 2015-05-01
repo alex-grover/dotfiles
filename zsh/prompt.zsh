@@ -9,7 +9,7 @@ function git_prompt_info() {
 
 # checks if working tree is dirty
 function parse_git_dirty() {
-    GIT_STATUS=$(command git status -s 2> /dev/null | tail -n1)
+    GIT_STATUS=$(command git status --porcelain 2> /dev/null | tail -n1)
     if [[ -n $GIT_STATUS ]]; then
         echo "%F{yellow}✗%f "
     fi
