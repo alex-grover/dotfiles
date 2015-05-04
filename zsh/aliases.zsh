@@ -33,4 +33,4 @@ alias cat='pygmentize -g'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # iOS Simulator shortcut
-alias ios="open $(xcode-select -p)/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
