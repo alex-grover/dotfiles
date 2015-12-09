@@ -3,22 +3,27 @@
 dotfiles=$HOME/Developer/dotfiles
 
 # customize OS X preferences
+echo "Customizing OS X preferences"
 ./osx.sh
 
 # .gitconfig
+echo "Symlinking git configuration"
 ln -fs $dotfiles/.gitconfig ~/.gitconfig
 ln -fs $dotfiles/.gitignore ~/.gitignore
 
 # sublime text
 echo "Install Sublime Text: http://www.sublimetext.com"
-ln -fs $dotfiles/sublime/Package\ Control.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
-ln -fs $dotfiles/sublime/Better\ CoffeeScript.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Better\ CoffeeScript.sublime-package
-#ln -fs $dotfiles/sublime/Theme\ -\ Soda.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Theme\ -\ Soda.sublime-package
-echo "Install Theme - Soda using Package Control"
-ln -fs $dotfiles/sublime/Monokai\ Soda.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Monokai\ Soda.tmTheme
-ln -fs $dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+echo "Install packages:"
+echo "  - Package Control"
+echo "  - Git"
+echo "  - SoDa Reloaded Dark Theme"
+echo "  - Monokai Soda color scheme"
+read -p "Press any key to continue"
+ln -fs $dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+ln -fs $dotfiles/Monokai\ Soda.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Monokai\ Soda.tmTheme
 
 # zsh config files
+echo "Symlinking zsh config files..."
 if [[ -d ~/.zsh ]]; then
     rm -rf ~/.zsh
 elif [[ -L ~/.zsh ]]; then
@@ -30,27 +35,28 @@ chsh -s /bin/zsh
 compinit
 
 # install xcode command line tools
+echo "Installing Xcode command-line tools"
 xcode-select --install
 
 # install cloudapp cli tool
+echo "Installing cloudapp gem"
 sudo gem install cloudapp
 
 # install Pygments
-echo "Installing Pygments for `cat` syntax highlighting"
+echo "Installing pygments for `cat` syntax highlighting"
 sudo easy_install Pygments
 
 # install Homebrew
+echo "Installing homebrew"
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew update
 
 # install updated Git
+echo "Installing updated git and git-browse-remote gem"
 brew install git
 sudo gem install git-browse-remote
 
-# install node and npm modules
-brew install node
-npm install -g coffee-script bower
-
+echo "Symlinking vim config"
 ln -fs $dotfiles/.vimrc ~/.vimrc
 mkdir -p ~/.vim/
 
