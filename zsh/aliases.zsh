@@ -29,8 +29,5 @@ alias ....='cd ../../..'
 # cat syntax highlighting
 alias cat='pygmentize -g'
 
-# sublime text shortcut
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-
 # iOS Simulator shortcut
 alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"

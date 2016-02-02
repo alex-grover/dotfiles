@@ -11,16 +11,8 @@ echo "Symlinking git configuration"
 ln -fs $dotfiles/.gitconfig ~/.gitconfig
 ln -fs $dotfiles/.gitignore ~/.gitignore
 
-# sublime text
-echo "Install Sublime Text: http://www.sublimetext.com"
-echo "Install packages:"
-echo "  - Package Control"
-echo "  - Git"
-echo "  - SoDa Reloaded Dark Theme"
-echo "  - Monokai Soda color scheme"
-read -p "Press any key to continue"
-ln -fs $dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-ln -fs $dotfiles/Monokai\ Soda.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Monokai\ Soda.tmTheme
+# atom
+echo "Install Atom: atom.io" 
 
 # zsh config files
 echo "Symlinking zsh config files..."
