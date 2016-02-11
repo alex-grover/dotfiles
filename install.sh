@@ -52,3 +52,7 @@ echo "Symlinking vim config"
 ln -fs $dotfiles/.vimrc ~/.vimrc
 mkdir -p ~/.vim/
 
+echo "Installing ctags"
+brew install ctags
+ln -fs $dotfiles/.ctags ~/.ctags
+
