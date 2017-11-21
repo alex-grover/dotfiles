@@ -5,24 +5,14 @@ adobe cs + lightroom?
 alfred
 appcleaner
 chrome
-cloudapp
 cloudapp screenshots -> trash script
-divvy
+divvy  brew cask install divvy
 dotfiles
 dropbox
-firefox?
-flux
 inconsolata dz font to /Lib/Fonts
-mailbox
-mint quickview?
 music library
 photo library
 set up divvy shortcuts
 set up internet accts
-steam + games?
-openemu?
-sublime text
-traktor
 transmission
-vlc
-xcode
+iina

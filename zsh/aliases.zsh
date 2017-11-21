@@ -16,7 +16,7 @@ alias gt='git checkout'
 alias glg='git log --stat --graph --decorate'
 alias ga='git add'
 alias gls='git ls-files'
-alias go='git browse-remote'
+alias go='git open'
 
 # ls aliases
 alias la='ls -a'

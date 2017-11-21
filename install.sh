@@ -44,9 +44,9 @@ echo "Installing homebrew"
 brew update
 
 # install updated Git
-echo "Installing updated git and git-browse-remote gem"
-brew install git
-sudo gem install git-browse-remote
+echo "Installing updated git and git-open"
+brew install git node
+npm install -g git-open
 
 echo "Symlinking vim config"
 ln -fs $dotfiles/.vimrc ~/.vimrc
