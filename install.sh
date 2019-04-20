@@ -56,3 +56,5 @@ echo "Installing ctags"
 brew install ctags
 ln -fs $dotfiles/.ctags ~/.ctags
 
+echo "Installing dev packages"
+./dev.sh
