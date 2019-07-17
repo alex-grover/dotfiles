@@ -1,6 +1,6 @@
 brew "git"
-brew "jpeg"
-brew "libyaml"
 brew "node"
 brew "pipenv"
 brew "postgresql"
+brew "python"
+brew "zsh"
