@@ -5,3 +5,5 @@ xcode-select --install
 ./scripts/fish.sh
 ./scripts/git.sh
 ./scripts/macos.git
+
+open (cat config/config.divvy)
