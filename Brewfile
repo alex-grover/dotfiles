@@ -1,4 +1,5 @@
 brew "git"
+brew "hub"
 brew "node"
 brew "pipenv"
 brew "postgresql"

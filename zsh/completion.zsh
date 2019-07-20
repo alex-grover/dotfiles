@@ -11,3 +11,8 @@ zstyle ':completion:*' list-colors ''
 
 # completion menu uses select
 zstyle ':completion:*:*:*:*:*' menu select
+
+# install completion for Homebrew packages
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
