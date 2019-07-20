@@ -1,6 +1,8 @@
 dotfiles
 ========
 
+Simple but usable dotfiles and setup scripts.
+
 Installation:
 
 .. code-block:: bash
