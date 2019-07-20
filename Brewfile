@@ -1,7 +1,7 @@
+brew "fish"
 brew "git"
 brew "hub"
 brew "node"
 brew "pipenv"
 brew "postgresql"
 brew "python"
-brew "zsh"

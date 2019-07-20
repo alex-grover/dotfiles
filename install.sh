@@ -15,6 +15,7 @@ ln -fs $dotfiles/.gitignore ~/.gitignore
 echo "Install Atom: atom.io" 
 
 # zsh config files
+echo "TODO: fish"
 echo "Symlinking zsh config files..."
 if [[ -d ~/.zsh ]]; then
     rm -rf ~/.zsh
