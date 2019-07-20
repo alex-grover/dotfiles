@@ -1,5 +1,12 @@
+# Remove the default login message
 set fish_greeting
 
+# Remove partial directories from prompt
+function prompt_pwd
+    basename $PWD
+end
+
+# Environment variables
 set -gx EDITOR kak
 set -gx CLICOLOR 1
 set -gx LSCOLORS GxfxcxdxBxegedabagacad
