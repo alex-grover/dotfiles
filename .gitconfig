@@ -3,7 +3,7 @@
 
 [user]
     name = Alex Grover
-    email = alexat955@gmail.com
+    email = hello@alexgrover.me
 
 [color]
     ui = auto
@@ -22,6 +22,3 @@
 
 [branch]
 	autosetuprebase = always
-
-[core]
-	excludesfile = /Users/alexgrover/.gitignore
