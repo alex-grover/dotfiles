@@ -1,6 +1,7 @@
 brew "fish"
 brew "git"
 brew "hub"
+brew "kakoune"
 brew "node"
 brew "pipenv"
 brew "postgresql"

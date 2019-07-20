@@ -1,6 +1,3 @@
-Aliases
-Prompt
-- Remove network name
-- Remove full path
-- Git clean status
-- Color
+FISH
+----
+Git aliases

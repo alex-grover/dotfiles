@@ -16,5 +16,4 @@ set up divvy shortcuts
 set up internet accts
 transmission
 iina
-PIA
 Jetbrains + pycharm + webstorm
