@@ -14,6 +14,7 @@ if status --is-interactive
     abbr -a -g gb git branch
     abbr -a -g gc git commit
     abbr -a -g gd git diff
+    abbr -a -g gdc git diff --cached
     abbr -a -g gf git fetch
     abbr -a -g gl git pull
     abbr -a -g glg git log --stat --graph
