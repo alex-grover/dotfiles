@@ -2,11 +2,11 @@
 set fish_greeting
 
 # Environment variables
-set -g EDITOR kak
-set -g CLICOLOR 1
-set -g LSCOLORS GxfxcxdxBxegedabagacad
-set -g GREP_OPTIONS -r --exclude-dir=.git
-set -g theme_short_path yes
+set -gx EDITOR kak
+set -gx CLICOLOR 1
+set -gx LSCOLORS GxfxcxdxBxegedabagacad
+set -gx GREP_OPTIONS -r --exclude-dir=.git
+set -gx theme_short_path yes
 
 # Git aliases
 if status --is-interactive
