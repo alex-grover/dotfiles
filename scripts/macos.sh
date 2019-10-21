@@ -6,7 +6,7 @@ sudo nvram SystemAudioVolume=" "
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
-# Fast ket repeat
+# Fast key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 1
 

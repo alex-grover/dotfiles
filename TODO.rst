@@ -1,0 +1,4 @@
+- MacOS hot corners in setup script
+- DaVinci Resolve in Brewfile
+- Safari ad blocker (AdGuard for Safari?)
+- GoPro Quik?
