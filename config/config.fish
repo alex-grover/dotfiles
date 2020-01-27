@@ -19,9 +19,9 @@ if status --is-interactive
     abbr -a -g gl git pull
     abbr -a -g glg git log --stat --graph
     abbr -a -g gls git ls-files
-    abbr -a -g go git open
     abbr -a -g gp git push
     abbr -a -g gr git remote -v
     abbr -a -g gs git status
     abbr -a -g gt git checkout
+    abbr -a -g gtb git checkout -b
 end
