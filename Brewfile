@@ -1,6 +1,5 @@
 brew "fish"
 brew "git"
-brew "grc"
 brew "hub"
 brew "kakoune"
 brew "node"
