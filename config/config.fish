@@ -25,3 +25,8 @@ if status --is-interactive
     abbr -a -g gt git checkout
     abbr -a -g gtb git checkout -b
 end
+
+function git --wraps hub --description 'Alias for hub, which wraps git to provide extra functionality with GitHub.'
+    hub $argv
+end
+
