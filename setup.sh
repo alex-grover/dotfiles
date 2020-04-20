@@ -3,5 +3,5 @@
 ./scripts/fish.sh
 ./scripts/git.sh
 ./scripts/macos.sh
-./scripts/divvy.sh
 ./scripts/alfred.sh
+./scripts/other.sh

@@ -199,6 +199,12 @@
         "options": {
           "full_name": "the-unarchiver"
         }
+      },
+      "amazon-photos": {
+        "version": "latest",
+        "options": {
+          "full_name": "amazon-photos"
+        }
       }
     }
   },

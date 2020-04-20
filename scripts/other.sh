@@ -1,0 +1,6 @@
+echo "Install the following from the App Store:"
+echo "AdGuard for Safari"
+echo "Divvy (then run scripts/divvy.sh)"
+echo "Install the following from the web:"
+echo "DaVinci Resolve"
+echo "LRTimelapse"

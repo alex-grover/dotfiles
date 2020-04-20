@@ -9,6 +9,7 @@ tap "homebrew/cask-versions"
 
 cask "adobe-creative-cloud"
 cask "alfred3"
+cask "amazon-photos"
 cask "appcleaner"
 cask "divvy"
 cask "dropbox"
