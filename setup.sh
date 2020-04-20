@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 ./scripts/xcode.sh
 ./scripts/homebrew.sh
 ./scripts/fish.sh

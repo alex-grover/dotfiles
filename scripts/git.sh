@@ -1,5 +1,4 @@
-echo "Symlinking git configuration files"
-ln -s (pwd)/.gitconfig ~/.gitconfig
+#!/usr/bin/env sh
 
-echo "Installing git-open"
-npm install -g git-open
+echo "Symlinking git configuration files"
+ln -s $(pwd)/.gitconfig ~/.gitconfig

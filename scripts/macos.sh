@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 echo "Customizing OS X preferences"
 
 # Disable the sound effects on boot
