@@ -130,7 +130,7 @@
     },
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "f41b5733a3726bb22be109ce25ba536c16f26301"
+        "revision": "f73a3a7220ea113ff3d9a46526811580d8879b45"
       }
     },
     "cask": {
@@ -205,15 +205,21 @@
         "options": {
           "full_name": "amazon-photos"
         }
+      },
+      "lrtimelapse": {
+        "version": "5.4.0",
+        "options": {
+          "full_name": "lrtimelapse"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.13-112-gd6e7003",
+        "HOMEBREW_VERSION": "2.2.13-114-g05e66e9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ebece80d058135bcbc8d9330ec0b4f0595ef59df",
+        "Homebrew/homebrew-core": "2fe1503805753121be8767d9a6889ce84bc09fed",
         "CLT": "1103.0.32.29",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"
