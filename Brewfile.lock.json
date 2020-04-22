@@ -126,11 +126,32 @@
             }
           }
         }
+      },
+      "mas": {
+        "version": "1.6.3",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.catalina.bottle.tar.gz",
+              "sha256": "2069b8c1c1a64c2fb91cc1c25ab9c9890c61f2182224b9e0605a35a151bb85bd"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.mojave.bottle.tar.gz",
+              "sha256": "3dd5a50b551a37c164c31375cc8498ba870e29e50086bd5c4c294bc26708a6d2"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.high_sierra.bottle.tar.gz",
+              "sha256": "a0d1e45203448c08420c3eab2d40ef957fd22c8e40fbeb067bc7bffe4f08dfe2"
+            }
+          }
+        }
       }
     },
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "f73a3a7220ea113ff3d9a46526811580d8879b45"
+        "revision": "2bd24a9a29bfe9456570fd6e6707e6feb9150682"
       }
     },
     "cask": {
@@ -211,15 +232,21 @@
         "options": {
           "full_name": "lrtimelapse"
         }
+      },
+      "webstorm": {
+        "version": "2020.1,201.6668.106",
+        "options": {
+          "full_name": "webstorm"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.13-114-g05e66e9",
+        "HOMEBREW_VERSION": "2.2.13-130-gef471e9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "2fe1503805753121be8767d9a6889ce84bc09fed",
+        "Homebrew/homebrew-core": "fbc216c8c6324f39af8643c287639a965c6e0e74",
         "CLT": "1103.0.32.29",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"
