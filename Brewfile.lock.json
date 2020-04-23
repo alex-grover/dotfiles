@@ -239,6 +239,24 @@
           "full_name": "webstorm"
         }
       }
+    },
+    "mas": {
+      "AdGuard for Safari": {
+        "id": "1440147259",
+        "version": "1.7.4"
+      },
+      "DaVinci Resolve": {
+        "id": "571213070",
+        "version": "16.2.1"
+      },
+      "Divvy": {
+        "id": "413857545",
+        "version": "1.5.2"
+      },
+      "The Unarchiver": {
+        "id": "425424353",
+        "version": "4.2.1"
+      }
     }
   },
   "system": {
