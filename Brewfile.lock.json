@@ -126,27 +126,6 @@
             }
           }
         }
-      },
-      "mas": {
-        "version": "1.6.3",
-        "bottle": {
-          "cellar": ":any",
-          "prefix": "/usr/local",
-          "files": {
-            "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.catalina.bottle.tar.gz",
-              "sha256": "2069b8c1c1a64c2fb91cc1c25ab9c9890c61f2182224b9e0605a35a151bb85bd"
-            },
-            "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.mojave.bottle.tar.gz",
-              "sha256": "3dd5a50b551a37c164c31375cc8498ba870e29e50086bd5c4c294bc26708a6d2"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.high_sierra.bottle.tar.gz",
-              "sha256": "a0d1e45203448c08420c3eab2d40ef957fd22c8e40fbeb067bc7bffe4f08dfe2"
-            }
-          }
-        }
       }
     },
     "tap": {
@@ -155,70 +134,10 @@
       }
     },
     "cask": {
-      "adobe-creative-cloud": {
-        "version": "latest",
-        "options": {
-          "full_name": "adobe-creative-cloud"
-        }
-      },
       "alfred3": {
         "version": "3.8.5_970",
         "options": {
           "full_name": "alfred3"
-        }
-      },
-      "appcleaner": {
-        "version": "3.5",
-        "options": {
-          "full_name": "appcleaner"
-        }
-      },
-      "divvy": {
-        "version": "1.5.1",
-        "options": {
-          "full_name": "divvy"
-        }
-      },
-      "dropbox": {
-        "version": "latest",
-        "options": {
-          "full_name": "dropbox"
-        }
-      },
-      "firefox": {
-        "version": "75.0",
-        "options": {
-          "full_name": "firefox"
-        }
-      },
-      "google-chrome": {
-        "version": "81.0.4044.113",
-        "options": {
-          "full_name": "google-chrome"
-        }
-      },
-      "iina": {
-        "version": "1.0.6",
-        "options": {
-          "full_name": "iina"
-        }
-      },
-      "jetbrains-toolbox": {
-        "version": "1.16.6319",
-        "options": {
-          "full_name": "jetbrains-toolbox"
-        }
-      },
-      "transmission": {
-        "version": "2.94",
-        "options": {
-          "full_name": "transmission"
-        }
-      },
-      "the-unarchiver": {
-        "version": "4.2.1,128:1586456379",
-        "options": {
-          "full_name": "the-unarchiver"
         }
       },
       "amazon-photos": {
@@ -227,10 +146,22 @@
           "full_name": "amazon-photos"
         }
       },
-      "lrtimelapse": {
-        "version": "5.4.0",
+      "dropbox": {
+        "version": "latest",
         "options": {
-          "full_name": "lrtimelapse"
+          "full_name": "dropbox"
+        }
+      },
+      "iina": {
+        "version": "1.0.6",
+        "options": {
+          "full_name": "iina"
+        }
+      },
+      "transmission": {
+        "version": "2.94",
+        "options": {
+          "full_name": "transmission"
         }
       },
       "webstorm": {
