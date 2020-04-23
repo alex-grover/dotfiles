@@ -6,3 +6,4 @@ mas install 413857545 # Divvy
 mas install 409183694 # Keynote
 mas install 409203825 # Numbers
 mas install 409201541 # Pages
+mas install 425424353 # The Unarchiver
