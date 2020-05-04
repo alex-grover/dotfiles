@@ -7,6 +7,7 @@ set -gx CLICOLOR 1
 set -gx LSCOLORS GxfxcxdxBxegedabagacad
 set -gx GREP_OPTIONS -r --exclude-dir=.git
 set -gx theme_short_path yes
+set -gx ADBLOCK 1
 
 # Git aliases
 if status --is-interactive
