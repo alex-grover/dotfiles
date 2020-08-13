@@ -5,6 +5,9 @@ echo "Customizing OS X preferences"
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Don't rearrange spaces
+defaults write com.apple.dock mru-spaces -bool false
+
 # Fast key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 1
