@@ -5,6 +5,7 @@
 ./scripts/fish.sh
 ./scripts/git.sh
 ./scripts/macos.sh
+./scripts/npm.sh
 ./scripts/alfred.sh
 ./scripts/divvy.sh
 ./scripts/other.sh
