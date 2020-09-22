@@ -21,4 +21,4 @@
     prune = true
 
 [branch]
-	autosetuprebase = always
+    autosetuprebase = always
