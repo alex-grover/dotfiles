@@ -8,6 +8,7 @@ set -gx LSCOLORS GxfxcxdxBxegedabagacad
 set -gx GREP_OPTIONS -r --exclude-dir=.git
 set -gx theme_short_path yes
 set -gx ADBLOCK 1
+set -gx DISABLE_OPENCOLLECTIVE true
 
 # Git aliases
 if status --is-interactive
