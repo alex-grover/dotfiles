@@ -12,6 +12,7 @@ cask 'amazon-photos'
 cask 'dropbox'
 cask 'iina'
 cask 'transmission'
+cask 'spotify'
 cask 'webstorm'
 
 mas 'AdGuard for Safari', id: 1440147259
