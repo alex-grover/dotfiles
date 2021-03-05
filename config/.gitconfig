@@ -28,3 +28,6 @@
 
 [init]
     defaultBranch = main
+
+[advice]
+    addEmptyPathspec = false
