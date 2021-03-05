@@ -1,12 +1,11 @@
-# Remove the default login message
-set fish_greeting
+# Shell configuration
+set -gx fish_greeting
+set -gx theme_short_path yes
 
 # Environment variables
 set -gx EDITOR kak
-set -gx CLICOLOR 1
 set -gx LSCOLORS GxfxcxdxBxegedabagacad
 set -gx GREP_OPTIONS -r --exclude-dir=.git
-set -gx theme_short_path yes
 set -gx ADBLOCK 1
 set -gx DISABLE_OPENCOLLECTIVE true
 
