@@ -2,6 +2,9 @@
 
 echo "Customizing OS X preferences"
 
+# Disable font smoothing
+defaults -currentHost write -g AppleFontSmoothing -int 0
+
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
