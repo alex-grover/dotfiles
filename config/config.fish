@@ -1,6 +1,7 @@
 # Shell configuration
 set -gx fish_greeting
 set -gx theme_short_path yes
+set -gx theme_stash_indicator yes
 
 # Environment variables
 set -gx EDITOR kak
