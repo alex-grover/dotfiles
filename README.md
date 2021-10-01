@@ -6,7 +6,7 @@ Installation:
 
 ```bash
 
-  git clone git@github.com:ajgrover/dotfiles.git
+  git clone git@github.com:alex-grover/dotfiles.git
   cd dotfiles
   ./install.sh
 ```
