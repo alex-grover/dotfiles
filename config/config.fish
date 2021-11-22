@@ -7,7 +7,6 @@ set -gx theme_stash_indicator yes
 set -gx EDITOR kak
 set -gx CLICOLOR 1
 set -gx LSCOLORS GxfxcxdxBxegedabagacad
-set -gx GREP_OPTIONS -r --exclude-dir=.git
 set -gx ADBLOCK 1
 set -gx DISABLE_OPENCOLLECTIVE true
 
