@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
 echo "Adding fish to /etc/shells"
-sudo sh -c 'echo "/usr/local/bin/fish" >> /etc/shells'
-chsh -s /usr/local/bin/fish
+sudo sh -c "echo \"$(brew --prefix)/bin/fish\" >> /etc/shells"
+chsh -s $(brew --prefix)/bin/fish
 
 echo "Symlinking fish config file"
 ln -s $(pwd)/config/config.fish ~/.config/fish
