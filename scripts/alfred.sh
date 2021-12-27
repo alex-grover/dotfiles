@@ -2,4 +2,4 @@
 
 echo
 echo "Set up Alfred preferences and install workflows:"
-echo "https://github.com/vitorgalvao/alfred-workflows/tree/master/CoffeeCoffee"
+echo "https://www.packal.org/workflow/caffeinate-control"
