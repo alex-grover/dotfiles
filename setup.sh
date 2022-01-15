@@ -8,5 +8,4 @@
 ./scripts/macos.sh
 ./scripts/npm.sh
 ./scripts/alfred.sh
-./scripts/rectangle.sh
 ./scripts/other.sh
