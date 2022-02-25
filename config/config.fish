@@ -28,5 +28,3 @@ if status --is-interactive
     abbr -a -g gtb git checkout -b
 end
 
-# Temporary for prompt stash support
-source ~/Developer/dotfiles/config/prompt.fish
