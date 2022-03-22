@@ -25,6 +25,10 @@ if status --is-interactive
 end
 
 # Function aliases
+function cat --wraps bat
+    bat $argv
+end
+
 function ls --wraps exa
     exa $argv
 end
