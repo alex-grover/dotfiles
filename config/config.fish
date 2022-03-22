@@ -3,8 +3,6 @@ set -gx fish_greeting
 
 # Environment variables
 set -gx EDITOR kak
-set -gx CLICOLOR 1
-set -gx LSCOLORS GxfxcxdxBxegedabagacad
 set -gx ADBLOCK 1
 set -gx DISABLE_OPENCOLLECTIVE true
 
@@ -24,5 +22,10 @@ if status --is-interactive
     abbr -a -g gs git status
     abbr -a -g gt git checkout
     abbr -a -g gtb git checkout -b
+end
+
+# Function aliases
+function ls --wraps exa
+    exa $argv
 end
 

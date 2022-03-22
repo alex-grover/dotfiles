@@ -1,4 +1,5 @@
 brew 'bat'
+brew 'exa'
 brew 'fd'
 brew 'fish'
 brew 'fzf'
