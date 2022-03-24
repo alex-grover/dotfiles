@@ -9,6 +9,7 @@ brew 'git-delta'
 brew 'kakoune'
 brew 'node'
 brew 'postgresql'
+brew 'ripgrep'
 
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-fonts'

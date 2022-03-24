@@ -33,3 +33,7 @@ function ls --wraps exa
     exa $argv
 end
 
+function grep --wraps rg
+    rg $argv
+end
+
