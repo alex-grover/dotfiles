@@ -29,11 +29,19 @@ function cat --wraps bat
     bat $argv
 end
 
-function ls --wraps exa
-    exa $argv
-end
-
 function grep --wraps rg
     rg $argv
+end
+
+function ls --wraps exa
+    exa $argv --git
+end
+
+function ll --wraps exa
+    exa $argv -lh --git
+end
+
+function la --wraps exa
+    exa $argv -lah --git
 end
 
