@@ -10,5 +10,5 @@ ln -s $(pwd)/config/config.fish ~/.config/fish
 echo "Installing fisher and plugins"
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install IlanCosman/tide@v5
-fisher install https://github.com/jorgebucaran/autopair.fish
+fisher install jorgebucaran/autopair.fish
 fisher install PatrickF1/fzf.fish
