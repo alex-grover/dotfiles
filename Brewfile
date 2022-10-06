@@ -8,21 +8,18 @@ brew 'git'
 brew 'git-delta'
 brew 'kakoune'
 brew 'node'
-brew 'postgresql'
+brew 'postgresql@14'
 brew 'ripgrep'
 
-tap 'homebrew/cask-versions'
 tap 'homebrew/cask-fonts'
 
-cask 'alfred'
 cask 'font-meslo-lg-nerd-font'
 cask 'hyper'
 cask 'iina'
-cask 'rectangle'
+cask 'raycast'
 cask 'spotify'
 cask 'transmission'
 cask 'webstorm'
 
 mas 'AdGuard for Safari', id: 1440147259
 mas 'DaVinci Resolve', id: 571213070
-mas 'The Unarchiver', id: 425424353
