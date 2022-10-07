@@ -23,3 +23,4 @@ cask 'webstorm'
 
 mas 'AdGuard for Safari', id: 1440147259
 mas 'DaVinci Resolve', id: 571213070
+mas 'Flow - Focus & Pomodoro Timer', id: 1423210932
