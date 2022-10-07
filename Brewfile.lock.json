@@ -533,6 +533,10 @@
             }
           }
         }
+      },
+      "cockroachdb/tap/cockroach": {
+        "version": "22.1.8",
+        "bottle": false
       }
     },
     "tap": {
@@ -661,6 +665,14 @@
         "CLT": "14.0.0.0.1.1661618636",
         "Xcode": "14.0",
         "macOS": "12.6"
+      },
+      "ventura": {
+        "HOMEBREW_VERSION": "3.6.4",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "22f11ffc582332356df9c7968e87ce951286f36f",
+        "CLT": "14.1.0.0.1.1663981106",
+        "Xcode": "14.0.1",
+        "macOS": "13.0"
       }
     }
   }

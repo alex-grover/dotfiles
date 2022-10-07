@@ -1,4 +1,5 @@
 brew 'bat'
+brew 'cockroachdb/tap/cockroach'
 brew 'exa'
 brew 'fd'
 brew 'fish'
@@ -8,7 +9,6 @@ brew 'git'
 brew 'git-delta'
 brew 'kakoune'
 brew 'node'
-brew 'postgresql@14'
 brew 'ripgrep'
 
 tap 'homebrew/cask-fonts'
