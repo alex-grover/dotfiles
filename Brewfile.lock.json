@@ -596,12 +596,18 @@
         "options": {
           "full_name": "webstorm"
         }
+      },
+      "linear-linear": {
+        "version": "1.15.0,23011361pf52q49",
+        "options": {
+          "full_name": "linear-linear"
+        }
       }
     },
     "mas": {
       "AdGuard for Safari": {
         "id": "1440147259",
-        "version": "1.11.10"
+        "version": "1.11.11"
       },
       "DaVinci Resolve": {
         "id": "571213070",
@@ -623,8 +629,8 @@
       },
       "ventura": {
         "HOMEBREW_VERSION": "3.6.21",
-        "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "29b514bcd6007ea81a873455ce3f8f511b4dbd2a",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "cfe581c39912ba84ad9d52799eba9e47deeb5ce2",
         "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.2",
         "macOS": "13.1"
