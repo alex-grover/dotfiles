@@ -17,10 +17,10 @@ tap 'homebrew/cask-fonts'
 cask 'font-meslo-lg-nerd-font'
 cask 'hyper'
 cask 'iina'
-cask 'ledger-live'
 cask 'raycast'
 cask 'spotify'
 cask 'transmission'
 cask 'webstorm'
 
 mas 'AdGuard for Safari', id: 1440147259
+mas 'Photomator', id: 1444636541
