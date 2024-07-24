@@ -33,15 +33,15 @@ function grep --wraps rg
     rg $argv
 end
 
-function ls --wraps exa
-    exa $argv --git
+function ls --wraps eza
+    eza $argv --git
 end
 
-function ll --wraps exa
-    exa $argv -lh --git
+function ll --wraps eza
+    eza $argv -lh --git
 end
 
-function la --wraps exa
-    exa $argv -lah --git
+function la --wraps eza
+    eza $argv -lah --git
 end
 
