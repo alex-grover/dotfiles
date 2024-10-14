@@ -10,6 +10,3 @@ Installation:
   ./setup.sh
 ```
 
-## Rationale
-
-* `hyper`: the default macOS terminal.app doesn't play nicely with nerd fonts

@@ -9,11 +9,10 @@ brew 'git'
 brew 'git-delta'
 brew 'kakoune'
 brew 'libpq'
-brew 'postgresql@15'
+brew 'postgresql@16'
 brew 'ripgrep'
 
-cask 'homebrew/cask-fonts/font-meslo-lg-nerd-font'
-cask 'hyper'
+cask 'alacritty', args: { no_quarantine: true }
 cask 'iina'
 cask 'logi-options+'
 cask 'raycast'
