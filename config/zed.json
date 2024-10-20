@@ -1,0 +1,24 @@
+{
+  "autosave": "on_focus_change",
+  "auto_install_extensions": {
+    "github-theme": true
+  },
+  "base_keymap": "JetBrains",
+  "buffer_font_family": "MesloLGS Nerd Font",
+  "buffer_font_size": 13,
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "hour_format": "hour24",
+  "terminal": {
+    "dock": "right",
+    "line_height": "standard"
+  },
+  "theme": {
+    "mode": "dark",
+    "dark": "Github Dark Dimmed",
+    "light": "Github Light"
+  }
+}

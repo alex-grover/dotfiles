@@ -6,7 +6,7 @@ echo "Adding fish to /etc/shells"
 sudo sh -c "echo \"$(brew --prefix)/bin/fish\" >> /etc/shells"
 chsh -s $(brew --prefix)/bin/fish
 
-echo "Symlinking fish config file"
+echo "Symlinking fish configuration files"
 CONFIG_DIR=$HOME/.config/fish
 mkdir -p "$CONFIG_DIR"
 ln -fs $(pwd)/config/config.fish $CONFIG_DIR

@@ -13,12 +13,13 @@ brew 'postgresql@16'
 brew 'ripgrep'
 
 cask 'alacritty', args: { no_quarantine: true }
+cask 'font-meslo-lg-nerd-font'
 cask 'iina'
 cask 'logi-options+'
 cask 'raycast'
 cask 'spotify'
 cask 'transmission'
-cask 'webstorm'
+cask 'zed'
 
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Copilot', id: 1447330651
