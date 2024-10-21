@@ -16,4 +16,4 @@ fish -c "fish_add_path (brew --prefix)/bin"
 
 echo "Installing fisher and plugins"
 fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
-fish -c "fisher install IlanCosman/tide@v5 jorgebucaran/autopair.fish PatrickF1/fzf.fish"
+fish -c "fisher install jorgebucaran/autopair.fish PatrickF1/fzf.fish"

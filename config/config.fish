@@ -45,3 +45,6 @@ function la --wraps eza
     eza $argv -lah --git
 end
 
+starship init fish | source
+
+zoxide init --cmd cd fish | source

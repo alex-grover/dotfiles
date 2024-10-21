@@ -3,9 +3,8 @@
   "auto_install_extensions": {
     "github-theme": true
   },
-  "base_keymap": "JetBrains",
+  "buffer_font_size": 14,
   "buffer_font_family": "MesloLGS Nerd Font",
-  "buffer_font_size": 13,
   "git": {
     "inline_blame": {
       "enabled": false
