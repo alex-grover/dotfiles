@@ -8,5 +8,4 @@
 ./scripts/git.sh
 ./scripts/gh-dash.sh
 ./scripts/macos.sh
-./scripts/npm.sh
 ./scripts/raycast.sh
