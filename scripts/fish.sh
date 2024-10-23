@@ -8,8 +8,9 @@ chsh -s $(brew --prefix)/bin/fish
 
 echo "Symlinking fish configuration files"
 CONFIG_DIR=$HOME/.config/fish
-mkdir -p "$CONFIG_DIR"
+mkdir -p $CONFIG_DIR
 ln -fs $(pwd)/config/config.fish $CONFIG_DIR
+ln -fs $(pwd)/config/starship.toml $HOME/.config
 
 echo "Adding brew bin dir to path"
 fish -c "fish_add_path (brew --prefix)/bin"
