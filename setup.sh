@@ -2,7 +2,6 @@
 
 ./scripts/xcode.sh
 ./scripts/homebrew.sh
-./scripts/alacritty.sh
 ./scripts/fish.sh
 ./scripts/kak.sh
 ./scripts/git.sh

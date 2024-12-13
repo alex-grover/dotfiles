@@ -13,7 +13,6 @@ brew 'ripgrep'
 brew 'starship'
 brew 'zoxide'
 
-cask 'alacritty', args: { no_quarantine: true }
 cask 'font-meslo-lg-nerd-font'
 cask 'iina'
 cask 'logi-options+'
