@@ -27,6 +27,10 @@
       }
     }
   },
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "auto_reveal_entries": false
+  },
   "terminal": {
     "dock": "right",
     "line_height": "standard"
