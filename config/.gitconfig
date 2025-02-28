@@ -13,15 +13,19 @@
 
 [push]
     default = current
+	followTags = true
 
 [help]
     autocorrect = 1
 
 [fetch]
     prune = true
+	pruneTags = true
+	all = true
 
 [branch]
     autosetuprebase = always
+	sort = -committerdate
 
 [pull]
     rebase = true
@@ -46,7 +50,26 @@
     conflictstyle = diff3
 
 [diff]
-    colorMoved = default
+	colorMoved = plain
+	algorithm = histogram
+	renames = true
+	mnemonicPrefix = true
 
 [commit]
     gpgsign = true
+	verbose = true
+
+[column]
+	ui = auto
+
+[tag]
+	sort = version:refname
+
+[rerere]
+	enabled = true
+	autoupdate = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
