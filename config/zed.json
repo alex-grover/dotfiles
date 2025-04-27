@@ -1,4 +1,5 @@
 {
+  "show_edit_predictions": false,
   "autosave": "on_focus_change",
   "auto_install_extensions": {
     "github-theme": true
