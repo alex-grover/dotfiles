@@ -1,3 +1,0 @@
-[nodejs]
-detect_files = ['package.json', '.node-version', '!bunfig.toml', '!bun.lock', '!bun.lockb']
-
