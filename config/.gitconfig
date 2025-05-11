@@ -4,6 +4,7 @@
 [user]
     name = Alex Grover
     email = hello@alexgrover.me
+    signingkey = ~/.ssh/id_ed25519.pub
 
 [color]
     ui = auto
@@ -13,19 +14,19 @@
 
 [push]
     default = current
-	followTags = true
+    followTags = true
 
 [help]
     autocorrect = 1
 
 [fetch]
     prune = true
-	pruneTags = true
-	all = true
+    pruneTags = true
+    all = true
 
 [branch]
     autosetuprebase = always
-	sort = -committerdate
+    sort = -committerdate
 
 [pull]
     rebase = true
@@ -35,7 +36,7 @@
 
 [advice]
     addEmptyPathspec = false
-	skippedCherryPicks = false
+    skippedCherryPicks = false
 
 [core]
     pager = delta
@@ -50,26 +51,29 @@
     conflictstyle = diff3
 
 [diff]
-	colorMoved = plain
-	algorithm = histogram
-	renames = true
-	mnemonicPrefix = true
+    colorMoved = plain
+    algorithm = histogram
+    renames = true
+    mnemonicPrefix = true
 
 [commit]
     gpgsign = true
-	verbose = true
+    verbose = true
 
 [column]
-	ui = auto
+    ui = auto
 
 [tag]
-	sort = version:refname
+    sort = version:refname
 
 [rerere]
-	enabled = true
-	autoupdate = true
+    enabled = true
+    autoupdate = true
 
 [rebase]
-	autoSquash = true
-	autoStash = true
-	updateRefs = true
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
+
+[gpg]
+    format = ssh
