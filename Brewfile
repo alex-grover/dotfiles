@@ -24,5 +24,6 @@ cask 'zed'
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Copilot', id: 1447330651
 mas 'DaVinci Resolve', id: 571213070
+mas 'Dropover', id: 1355679052
 mas 'Photomator', id: 1444636541
 mas 'Tailscale', id: 1444636541
