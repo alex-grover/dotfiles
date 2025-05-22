@@ -14,6 +14,7 @@ brew 'ripgrep'
 brew 'starship'
 brew 'zoxide'
 
+cask 'clop'
 cask 'font-meslo-lg-nerd-font'
 cask 'iina'
 cask 'logi-options+'
