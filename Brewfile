@@ -1,3 +1,5 @@
+tap 'oven-sh/bun'
+
 brew 'bat'
 brew 'oven-sh/bun/bun'
 brew 'eza'
