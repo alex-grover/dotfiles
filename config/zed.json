@@ -1,17 +1,16 @@
 {
   "agent": {
     "default_profile": "ask",
-    "model_parameters": [],
     "default_model": {
       "provider": "vercel",
       "model": "v0-1.5-md"
     }
   },
-  "show_edit_predictions": false,
-  "autosave": "on_focus_change",
   "auto_install_extensions": {
-    "github-theme": true
+    "github-theme": true,
+    "stylelint": true
   },
+  "autosave": "on_focus_change",
   "buffer_font_size": 14,
   "buffer_font_family": "MesloLGS Nerd Font",
   "git": {
@@ -19,9 +18,28 @@
       "enabled": false
     }
   },
+  "languages": {
+    "CSS": {
+      "code_actions_on_format": {
+        "source.fixAll.stylelint": true
+      },
+      "language_servers": ["stylelint-lsp"]
+    }
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
+  },
   "project_panel": {
     "auto_fold_dirs": false,
     "auto_reveal_entries": false
+  },
+  "show_edit_predictions": false,
+  "tab_bar": {
+    "show_nav_history_buttons": false
   },
   "terminal": {
     "dock": "right",
@@ -31,10 +49,5 @@
     "mode": "dark",
     "dark": "Github Dark Dimmed",
     "light": "Github Light"
-  },
-  "language_models": {
-    "openai": {
-      "api_url": null
-    }
   }
 }
