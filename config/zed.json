@@ -1,6 +1,6 @@
 {
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
       "provider": "vercel",
       "model": "v0-1.5-md"
@@ -22,8 +22,7 @@
     "CSS": {
       "code_actions_on_format": {
         "source.fixAll.stylelint": true
-      },
-      "language_servers": ["stylelint-lsp"]
+      }
     }
   },
   "lsp": {
