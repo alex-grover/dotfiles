@@ -30,6 +30,15 @@
       "settings": {
         "require_config_file": true
       }
+    },
+    "vscode-css-language-server": {
+      "settings": {
+        "css": {
+          "lint": {
+            "unknownAtRules": "ignore"
+          }
+        }
+      }
     }
   },
   "project_panel": {
