@@ -5,7 +5,7 @@
 ./scripts/kak.sh
 ./scripts/git.sh
 ./scripts/gh-dash.sh
+./scripts/ghostty.sh
 ./scripts/macos.sh
 ./scripts/raycast.sh
-./scripts/terminal.sh
 ./scripts/zed.sh

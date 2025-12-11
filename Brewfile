@@ -18,7 +18,7 @@ brew 'zoxide'
 
 cask 'alcove'
 cask 'clop'
-cask 'font-meslo-lg-nerd-font'
+cask 'ghostty'
 cask 'iina'
 cask 'logi-options+'
 cask 'raycast'

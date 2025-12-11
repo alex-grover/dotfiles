@@ -1,0 +1,3 @@
+theme = Vercel
+shell-integration-features = ssh-env
+
