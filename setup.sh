@@ -8,4 +8,3 @@
 ./scripts/ghostty.sh
 ./scripts/macos.sh
 ./scripts/raycast.sh
-./scripts/zed.sh

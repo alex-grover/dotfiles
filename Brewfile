@@ -24,7 +24,7 @@ cask 'logi-options+'
 cask 'raycast'
 cask 'spotify'
 cask 'transmission'
-cask 'zed'
+cask 'webstorm'
 
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Copilot', id: 1447330651
