@@ -1,4 +1,4 @@
-.AppHeader-button--hasIndicator::before {
+a[href="/notifications"]::before {
   display: none !important;
 }
 
