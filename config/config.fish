@@ -18,6 +18,7 @@ if status --is-interactive
     abbr -a -g glg git log --stat --graph
     abbr -a -g gls git ls-files
     abbr -a -g gp git push
+    abbr -a -g gpf git push --force-with-lease
     abbr -a -g gr git remote -v
     abbr -a -g gs git status
     abbr -a -g gt git checkout
